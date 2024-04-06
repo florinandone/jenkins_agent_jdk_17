@@ -8,7 +8,7 @@ RUN yum -y install java-17-openjdk-devel
 RUN yum -y install net-tools
 RUN yum -y install lsof
 RUN yum -y install libpcap
-RUN yum -y openssh-clients 
+RUN yum -y install openssh-clients 
 
 
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk
