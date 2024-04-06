@@ -2,7 +2,7 @@
 # podman build --file Dockerfile --tag oraclelinux-8-5-java-17-openjdk
 FROM oraclelinux:8.5
 
-#RUN yum -y update
+RUN yum -y update
 RUN yum -y install java-17-openjdk 
 RUN yum -y install java-17-openjdk-devel
 RUN yum -y install net-tools
